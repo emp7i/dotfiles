@@ -1,0 +1,27 @@
+[user]
+	email = mukund.tiwari@kutumbapp.com
+	name = emp7i
+	signingkey = /Users/empti/.ssh/id_ed25519
+[push]
+	autoSetupRemote = true
+	followTags = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+	verbose = true
+[help]
+	autocorrect = prompt
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
